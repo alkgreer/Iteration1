@@ -8,7 +8,7 @@ abstract class Shape() {                                             // <2>
    * Draw takes a function argument. Each shape will pass a stringized
    * version of itself to this function, which does the "drawing".
    */
-  def draw(offset: Point = Point(0.0,0.0))(f: String => Unit): Unit =
+  def draw(f: String => Unit): Unit =
     f(s"draw: ${this.toString}")   // <3>
 }
 
