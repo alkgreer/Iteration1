@@ -8,7 +8,7 @@ object SearchEngine {
     val searchHistory = history
 
     override def toString: String = {
-      return s"${userName}'s Search History\n${searchHistory}"
+      return s"$userName's Search History\n$searchHistory}"
     }
   }
 
@@ -37,8 +37,9 @@ object SearchEngine {
 
     val RandomSearch = Search("Randomness", List(
       Result("Top 5 most random things", "The most random things"),
-      Result("Top 5 most random incidents", "The most random incidents"),
+      Result("Top 5 most random incidents", "The most random incidents")
     ))
+
 
     val FinalSearch = Search("Finals", List(
       Result("Top 5 final questions", "The most occurying final questions"),
