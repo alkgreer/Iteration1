@@ -1,6 +1,6 @@
 # Iteration1
 ### This project is for learning scala from the book _O'Reilly Programming Scala 2nd edition_
-1. Setup
+1. **Setup**
 - Installed SBT and Scala
 - reviewd sbt and scala commands
 - reviewed scalac
@@ -10,13 +10,13 @@
 - Setup Project Directory
 - Linked local directory to Github
 
-2. Programming
+2. **Programming**
 - Chapter 1
   - Created basic class
   - Compiled and ran class in console
   - Created Objects and Main classes
   - Used run sbt command to find mains in directory
-- Chapter 2
+- **Chapter 2**
   - No need for semicolons since =, { and => are indicators
   - Var is mutable and Val is immutable (ex: val/var array = new Array(2) )
   - You can specify type (ex: var array: Array[String] = new Array(2) )
