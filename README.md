@@ -11,7 +11,7 @@
 - Linked local directory to Github
 
 2. **Programming**
-- Chapter 1
+- **Chapter 1**
   - Created basic class
   - Compiled and ran class in console
   - Created Objects and Main classes
