@@ -34,3 +34,16 @@
   - packages are used so you can easily import all types, values and methods within
   - abstract classes is when members are not all defined
   -Parameterized Types is where you use List[A], List[+A] (List[B] is subtype), List[-A]( List[B] is parent type)
+- **Chapter 3**
+  - Almost all operator are methods with 1.+(2) or 1.toString and can still use 1 + 2 or 1 toString
+  - If you have a method taking no arguments you can leave off the parentheses
+    - List(1,2,3,4,5,6).filter((i: Int) => isEven(i)).foreach((i:Int) => println(i)) can go to List(1,2,3,4,5,6) filter isEven foreach println
+  - Methods ending with a colon are right associative while all others are left associative
+    - 'a' :: list binds a to the left of the list
+  - scala if , for , while, do-while, syntax is common but can be assigned to vals 
+  - scope is expanded to where you can get a val thats declared outside the for
+  - You use try catch and finally clauses
+  - lazy vals are used to initialized a val once since it is expensive in time, money, etc... and it is deferred until needed
+  - You can use Enumerated type to make a type that is complex
+  - Interpolated Strings are used where you can print out variable easily (ex: println(s"Hello, $name") where s clarifies a string and $ signifies a variable
+  - traits are commonly used for abstractin purposed such as printing out data
